@@ -1,0 +1,12 @@
+{
+    "name": "Google Spreadsheet Interactor",
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "asimlqt/php-google-spreadsheet-client": "2.2.*",
+        "google/apiclient": "1.0.*@beta",
+        "rocket/table": "dev-master"
+    }
+}
